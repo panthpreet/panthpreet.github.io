@@ -1,0 +1,71 @@
+﻿body{
+	color:blue;
+	background-color:black;
+}
+
+#left{float: left}
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:white;
+}
+
+#header{
+	height:50px;
+	text-align:center;
+
+}
+
+#leftbody{
+	float:left;
+	width:190px;
+	height: 1200px;
+	background-color:#FFFFCC;
+	padding:5px;
+
+}
+#rightbody{
+	float:right;
+	width:540px;
+	height:1200px;
+	background:#FFFF99;
+	padding:5px;
+}
+
+#bottom{
+	text-align:center;
+	height:50px;
+	clear:both;
+
+}
+
+.p1,.p3{color:green;}
+
+.p2{color:purple}
+
+.panther{
+	color:red;
+	font-size:35px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+div p2{font-weight: bold}
+
+.moveit{
+	position: absolute;
+	left: 30px;
+	color: red;
+font-size: 30px}
+
+.dontmoveit{position: fixed;
+top: 30px;
+color: blue;
+}
+
+.what{position: relative;
+	color: red;
+right: -30%;
+font-size: 33px
+}
